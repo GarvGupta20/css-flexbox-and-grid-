@@ -1,0 +1,193 @@
+<! DOCTYPE html >
+<html lang="en">
+  <head>
+    <title>trial</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+    <nav>
+      <ul>
+        <li><a href=#1>first section</a></li>
+        <li><a href=#2>second section</a></li>
+        <li><a href=#3>third section</a></li>
+        <li><a href=#4>fourth section</a></li>
+        <li><a href=#5>fifth section</a></li>
+      </ul>
+    </nav>
+     <h1>some heading</h1>
+     <article>  <!-- it is tagged by the article element because its a stand on its owncontent which is a simple poem-->
+       <header>
+         <h2>a beautiful haruku</h2>
+       </header>
+       <p id="yo">
+       And all the <em>clouds</em> that lour'd upon our house <br>
+       In the deep bosom of the ocean buried. <br>
+       Now are our brows bound with victorious wreaths; <br>
+       Our bruised arms hung up for monuments; <br>
+       Our stern alarums changed to merry meetings, <br>
+       Our dreadful marches to delightful measures. <br>
+       Grim-visaged war hath smooth'd his wrinkled front; <br>
+       And now, instead of mounting barded steeds <br>
+      </p>
+      <footer class="credits">
+        <p>written by someone</p>
+      </footer>
+     </article>
+
+     <section id="1">  <!-- it cannot stand on its own hence we should be going for the section element-->
+       <h2>1</h2>
+       <p>
+         But I, that am not shaped for sportive tricks,
+         Nor made to court an amorous looking-glass;
+       </p>
+     </section>
+
+     <section id="2">
+       <h2>2</h2>   <!-- we are going for the same heading for each of the section because they have equla prefernces in the system and we want to identify each heading with the beginng of the new section and hence we use h2 try to save h1 for the heading determined by the h1 and then decide sections subsequent subsections with headings of lower value-->
+       <p>
+         To fright the souls of fearful adversaries,
+       </p>
+     </section>
+
+     <section id="3">
+       <h2>3</h2>
+       <p>
+         He capers nimbly in a lady's chamber
+         To the lascivious pleasing of a lute.
+       </p>
+     </section>
+
+     <section id="4">
+       <h2>4</h2>
+       <p>
+         Now is the winter of our discontent
+         Made <strong>glorious</strong> summer by this sun of York
+       </p>
+     </section>
+
+     <section id="5">
+       <h2>5</h2>
+       <p>
+         I, that am rudely stamp'd, and want love's majesty
+         To strut before a wanton ambling nymph;
+         I, that am curtail'd of this fair proportion,
+       </p>
+       <address class="">
+          bg-82 shalimar bagh   <!-- this is the adress whose nearest parent is swection elemnt and then the nearest ancestor is the body elemnt and hence it represents the address of the whole document hence makes the tag suitable -->
+       </address>
+     </section>
+
+     <section id="author">
+       <h1>
+         list of my favourite authors:
+       </h1>
+       <ul>
+         <li><a href="https://www.amazon.com" target="_blank">pablo nerudo</a></li>
+         <li>bo burnham</li>
+       </ul>
+     </section>
+
+     <section>
+       <h2>table</h2>
+       <table>
+         <caption>my favourite things</caption>
+         <thead>
+           <tr>
+             <th>books</th>
+             <th>course books</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>the alchemist</td>
+             <td>yoyo</td>
+          </tr>
+          <tr>
+            <td>everything is fucked</td>
+            <td>yoyoyoyo</td>
+          </tr>
+
+         </tbody>
+       </table>
+     </section>
+
+     <section id="testimonials">
+       <h2 class="testimonials-header">testimonials</h2>
+       <blockquote class="featured">
+         <p>
+           cited by some other person
+         </p>
+       </blockquote>
+       <blockquote>
+         <p>
+           beautiful quotes
+         </p>
+       </blockquote>
+     </section>
+     <section id="portfolio">
+       <h2>portfolio</h2>
+       <img class="anchor" src="images/la.jpg" alt="la">
+       <img src="images/la1.jpg" alt="la1">
+       <img src="images/la2.jpg" alt="la2">
+       <img src="images/la3.jpg" alt="la3">
+       <img src="images/la4.jpg" alt="la4">
+     </section>
+     <section class="feedback-form">
+       <h2>feedback</h2>
+       <form class="" action="index.html" method="POST" autocomplete="off" accept-charset="utf-8">
+         <p>
+           <label for="hey">Do you like the page</label>
+           <input id="hey" type="text" name="page">
+         </p>
+         <p>
+           <label>section you most liked</label>
+           <select name="section you most liked">
+             <option value=""></option>
+             <option value="">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+           </select>
+         </p>
+         <fieldset class="feedback-fieldset">
+           <legend>rating for the webpage</legend>
+           <p>
+             <label for="rating1">1</label>
+             <input id="rating1"  type="radio" name="rating">
+           </p>
+           <p>
+             <label for="rating2">2</label>
+             <input id="rating2"  type="radio" name="rating">
+           </p>
+           <p>
+             <label for="rating3">3</label>
+             <input id="rating3" type="radio" name="rating">
+           </p>
+           <p>
+             <label for="rating4">4</label>
+             <input id="rating4"  type="radio" name="rating">
+           </p>
+           <p>
+             <label for="rating5">5</label>
+             <input id="rating5"  type="radio" name="rating">
+           </p>
+         </fieldset>
+         <p>
+           <button type="submit" name="button">Send</button>
+         </p>
+       </form>
+     </section>
+     </main>
+
+  </body>
+</html>
+
+
+<!-- in html try to see that what elements should have same level hierchy and if you are confused over the hierchy then look over the specifications-->
